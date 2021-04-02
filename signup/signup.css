@@ -1,0 +1,155 @@
+.container{
+  /* border: 1px solid red; */
+  padding: 50px;
+  background-image: url("/signup/bg.png");
+
+  /* Full height */
+   height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.logo {
+  /* border: 1px solid black; */
+}
+
+.logo img {
+  width: 250px;
+  height: 40px; 
+  position: relative;
+  /* border: 1px solid black; */
+}
+
+.form_div {
+    /* border: 1px solid red; */
+}
+
+form {
+  /* border: 1px solid black; */
+  width: 90%;
+  padding: 30px;
+
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 4px 8px 13px #05023E4F;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+form h2 {
+  text-align: center;
+  font: normal normal 600 25px/17px Montserrat;
+  letter-spacing: 1.25px;
+  color: #2B2F4B;
+  opacity: 1;
+}
+
+.form-group {
+  display: flex;
+  border-bottom: 2px solid #6D6D6D;
+  margin: 20px auto;
+}
+
+.form-group label {
+  /* border: 1px solid blue; */
+  margin-bottom: 0;
+  padding-top: 5px;
+}
+
+.form-group input {
+  /* border: 1px solid palevioletred; */
+  border: none;
+}
+
+.profile_opt {
+  /* border: 1px solid hotpink; */
+  display: flex;
+  margin: 20px auto;
+}
+
+.profile_opt .hiring{
+  /* border: 1px solid red; */
+  width: 50%;
+  background: #B088F9 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 24px;
+}
+
+.profile_opt .working{
+  /* border: 1px solid purple; */
+  width: 50%;
+  color: #9498EE;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #B088F9;
+  border-radius: 24px;
+}
+
+.checkbox {
+  /* border: 1px solid brown; */
+  padding-left: 20px;
+}
+
+.checkbox label {
+  text-align: left;
+  font: normal normal normal 18px/17px Montserrat;
+  letter-spacing: 0.9px;
+  color: #636363;
+}
+
+.checkbox label input {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #F64650!important;
+  border-radius: 6px;
+  opacity: 1;
+  margin-right: 8px;
+}
+
+.contiune {
+  background: transparent linear-gradient(180deg, #B088F9 0%, #51C2D5 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 4px 5px 8px #00000029;
+  border-radius: 29px;
+  font: normal normal bold 20px/17px Montserrat;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  opacity: 1;
+  height: 45px;
+
+  width: 100%;
+  margin: 20px auto;
+}
+
+.haveAccount {
+  font: normal normal normal 25px/17px Montserrat;
+  letter-spacing: 1.25px;
+  color: #2B2F4B; 
+  margin: 20px auto;
+  text-align: center;
+}
+
+.haveAccount .login {
+  color: #B088F9;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: lightgreen;
+  }
+
+  .logo {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .form_div {
+    border: 1px solid red;
+    text-align: center;
+  }
+
+  form {
+    /* border: 1px solid black; */
+    width: 100%;
+  }
+}
