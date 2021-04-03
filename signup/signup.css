@@ -1,5 +1,4 @@
 .container{
-  /* border: 1px solid red; */
   padding: 50px;
   background-image: url("/signup/bg.png");
 
@@ -13,22 +12,20 @@
 }
 
 .logo {
-  /* border: 1px solid black; */
+
 }
 
 .logo img {
   width: 250px;
   height: 40px; 
   position: relative;
-  /* border: 1px solid black; */
 }
 
 .form_div {
-    /* border: 1px solid red; */
+  
 }
 
 form {
-  /* border: 1px solid black; */
   width: 90%;
   padding: 30px;
 
@@ -53,24 +50,20 @@ form h2 {
 }
 
 .form-group label {
-  /* border: 1px solid blue; */
   margin-bottom: 0;
   padding-top: 5px;
 }
 
 .form-group input {
-  /* border: 1px solid palevioletred; */
   border: none;
 }
 
 .profile_opt {
-  /* border: 1px solid hotpink; */
   display: flex;
   margin: 20px auto;
 }
 
 .profile_opt .hiring{
-  /* border: 1px solid red; */
   width: 50%;
   background: #B088F9 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
@@ -78,7 +71,6 @@ form h2 {
 }
 
 .profile_opt .working{
-  /* border: 1px solid purple; */
   width: 50%;
   color: #9498EE;
   background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -88,7 +80,6 @@ form h2 {
 }
 
 .checkbox {
-  /* border: 1px solid brown; */
   padding-left: 20px;
 }
 
@@ -134,22 +125,16 @@ form h2 {
 }
 
 @media screen and (max-width: 992px) {
-  body {
-    background-color: lightgreen;
-  }
-
   .logo {
     text-align: center;
     margin-bottom: 50px;
   }
 
   .form_div {
-    border: 1px solid red;
     text-align: center;
   }
 
   form {
-    /* border: 1px solid black; */
     width: 100%;
   }
 }

@@ -1,5 +1,4 @@
 .container{
-  /* border: 1px solid red; */
   padding: 50px;
   background-image: url("/signup/bg.png");
 
@@ -13,22 +12,20 @@
 }
 
 .logo {
-  /* border: 1px solid black; */
+  
 }
 
 .logo img {
   width: 250px;
   height: 40px; 
   position: relative;
-  /* border: 1px solid black; */
 }
 
 .form_div {
-    /* border: 1px solid red; */
+  
 }
 
 form {
-  /* border: 1px solid black; */
   width: 90%;
   padding: 30px;
   /* min-height: 550px; */
@@ -56,18 +53,15 @@ form h2 {
 }
 
 .form-group label {
-  /* border: 1px solid blue; */
   margin-bottom: 0;
   padding-top: 5px;
 }
 
 .form-group input {
-  /* border: 1px solid palevioletred; */
   border: none;
 }
 
 .checkbox {
-  /* border: 1px solid brown; */
   margin-top: 50px;
 }
 
@@ -88,7 +82,6 @@ form h2 {
 }
 
 .checkbox .forget_pswd {
-  /* border: 1px solid salmon; */
   width: fit-content;
   float: right;
   font: normal normal normal 18px/17px Montserrat;
@@ -123,9 +116,6 @@ form h2 {
 }
 
 @media screen and (max-width: 992px) {
-  body {
-    background-color: lightgreen;
-  }
 
   .logo {
     text-align: center;
@@ -133,12 +123,10 @@ form h2 {
   }
 
   .form_div {
-    border: 1px solid red;
     text-align: center;
   }
 
   form {
-    /* border: 1px solid black; */
     width: 100%;
   }
 }
