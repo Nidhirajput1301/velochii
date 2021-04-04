@@ -1,0 +1,200 @@
+/* nav starts */
+.navbar {
+  border: 2px solid #E2E2E2;
+  background-color: white;
+}
+
+.navbar-brand {
+  width: 250px;
+  height: 50px;
+}
+
+.navbar-brand img {
+   width: 100%;
+   height: 100%;
+}
+
+.navbar-nav {
+
+}
+
+.nav-item {
+  color: #AFAFAF;
+  font-style: Poppins-Regular;
+  margin: auto 10px;
+}
+
+.nav-item button {
+  border: 2px solid #2B2F4B;
+  border-radius: 10px;
+  color: #2B2F4B;
+  width: 120px;
+}
+
+/* nav ends */
+
+.container {
+  margin-top: 100px;
+}
+
+.filter {
+  display: flex;
+  margin: 30px auto;
+}
+
+.filter img {
+  width: 50px;
+  height: 55px;
+  margin: auto;
+}
+
+.filter p {
+  text-align: left;
+  color: #727272;
+  font-style: Poppins-Regular;
+  font-size: 25px;
+  font-weight: 100;
+  margin: auto;
+} 
+
+
+.two {
+  margin: 50px auto;
+}
+
+.two .title {
+  color: #727272;
+}
+
+.two .filter_by {
+  display: flex;
+}
+
+.two .filter_by p {
+  width: 30%;
+  text-align: right;
+  margin: auto;
+  color: #272121;
+}
+
+.two .filter_by select {
+  width: 60%;
+  margin-right: auto;
+  color: #C7C7C7;
+}
+
+.two .filter_by select option{
+  color: #C7C7C7;
+}
+
+
+.three {
+  
+}
+
+.three .col-sm-4 {
+
+}
+
+.three .btn-grp {
+  text-align: center;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 43px #00000014;
+  border-radius: 21px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.three .btn-grp button{
+  width: 35%;
+  margin: 8px;
+  border: 2px solid #2B2F4B;
+  border-radius: 8px;
+  color: #2B2F4B;
+}
+
+.three .col-sm-4 p {
+  color: #272121;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 30px;
+  font-style: Poppins-Medium;
+}
+
+.three .col-sm-8 {
+
+}
+
+.three .description {
+  margin: 20px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 43px #00000014;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.three .description .profile {
+  
+}
+
+.three .description .detail {
+  
+}
+
+.three .description .detail div {
+  display: flex;
+}
+
+.three .description .detail div img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.three .description .detail div p {
+  color: #272121;
+  font-style: Poppins-Regular;
+}
+
+.three .description .detail .name{
+  color: #272121;
+  font-style: Poppins-Regular;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.three .description .charge {
+  color: #272121;
+  font-style: Poppins-Regular;
+}
+
+@media screen and (max-width: 550px) {
+  .navbar-brand {
+    width: 180px;
+    height: 40px;
+  }
+
+  .container {
+    margin-top: 150px;
+  }
+
+  .filter p {
+    font-size: 18px;
+  } 
+
+  .two .filter_by {
+    display: inline;
+  }
+
+  .two .filter_by p {
+    width: 100%;
+    text-align: center;
+    margin-bottom:10px;
+  }
+
+  .two .filter_by select {
+    width: 100%;
+  }
+}
+
